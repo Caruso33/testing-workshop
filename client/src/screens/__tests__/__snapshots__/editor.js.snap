@@ -156,7 +156,7 @@ exports[`snapshot 1`] = `
 
 <div>
   <div
-    style="display: flex; flex-direction: column; align-items: center;"
+    class="css-0"
   >
     <form
       class="css-1"
