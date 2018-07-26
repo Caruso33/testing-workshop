@@ -40,7 +40,7 @@ exports[`snapshot 1`] = `
   }
 }
 
-.emotion-2 {
+.emotion-3 {
   display: grid;
   grid-template-columns: 100px 1fr;
   grid-gap: 16px;
@@ -83,7 +83,7 @@ exports[`snapshot 1`] = `
   opacity: 0.5;
 }
 
-.emotion-3 {
+.emotion-2 {
   font-size: 13px;
   font-family: Raleway,sans-serif;
   background: var(--green);
@@ -99,7 +99,7 @@ exports[`snapshot 1`] = `
   transition: 0.5s;
 }
 
-.emotion-3:hover {
+.emotion-2:hover {
   box-shadow: var(--shadowHover);
 }
 
@@ -130,7 +130,7 @@ exports[`snapshot 1`] = `
           style="justify-self: right;"
 =======
         <div
-          class="emotion-2"
+          class="emotion-3"
         >
           <label
             for="username-input"
@@ -155,7 +155,15 @@ exports[`snapshot 1`] = `
             placeholder="Password..."
             type="password"
           />
+          <button
+            class="emotion-2"
+            style="margin-top: 20px;"
+            type="submit"
+          >
+            Submit
+          </button>
         </div>
+<<<<<<< HEAD
         <button
           class="emotion-3"
           type="submit"
@@ -163,6 +171,8 @@ exports[`snapshot 1`] = `
         >
           Submit
         </button>
+=======
+>>>>>>> 4d5f879 (fix snapshots)
       </form>
     </div>
   </div>

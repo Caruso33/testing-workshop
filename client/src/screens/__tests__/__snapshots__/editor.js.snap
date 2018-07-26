@@ -40,7 +40,7 @@ exports[`snapshot 1`] = `
   }
 }
 
-.emotion-3 {
+.emotion-4 {
   display: grid;
   grid-template-columns: 100px 1fr;
   grid-gap: 16px;
@@ -114,7 +114,7 @@ exports[`snapshot 1`] = `
   opacity: 0.5;
 }
 
-.emotion-4 {
+.emotion-3 {
   font-size: 13px;
   font-family: Raleway,sans-serif;
   background: var(--green);
@@ -130,7 +130,7 @@ exports[`snapshot 1`] = `
   transition: 0.5s;
 }
 
-.emotion-4:hover {
+.emotion-3:hover {
   box-shadow: var(--shadowHover);
 }
 
@@ -189,7 +189,7 @@ exports[`snapshot 1`] = `
     </form>
 =======
         <div
-          class="emotion-3"
+          class="emotion-4"
         >
           <label
             for="title-input"
@@ -224,13 +224,14 @@ exports[`snapshot 1`] = `
             name="tags"
             placeholder="tags"
           />
+          <button
+            class="emotion-3"
+            style="margin-top: 20px;"
+            type="submit"
+          >
+            Submit
+          </button>
         </div>
-        <button
-          class="emotion-4"
-          type="submit"
-        >
-          Submit
-        </button>
       </form>
     </div>
 >>>>>>> e7dc50c (upgrade all the things)
